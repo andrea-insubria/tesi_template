@@ -1,0 +1,107 @@
+\documentclass[12pt,oneside]{amsbook}%,draft
+
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{mathrsfs}
+\usepackage{graphicx,pdfsync}
+\usepackage{ulem,color}
+
+%----------------------------------------------------------
+% Impaginazione ufficiale tesi
+%\usepackage[a4paper,top=3cm,bottom=3.5cm,left=3.5cm,right=2.5cm]{geometry}
+% impaginazione stampa bozze 
+\usepackage[a4paper,top=2cm,bottom=2cm,textwidth=17cm]{geometry}
+
+%,includehead,includefoot
+\linespread{2}
+
+
+%---------------------------------------------------------
+% Gestione hyperlink
+\usepackage[colorlinks=true,naturalnames=true,urlcolor=blue]{hyperref}
+
+%% impostazioni per formattazione ambienti
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorema}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{proposition}{Proposizione}[chapter]
+\newtheorem{corollary}{Corollario}[chapter]
+\newtheorem{fatto}{Fatto}
+
+\newcounter{examples}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definizione}[chapter]
+%\newtheorem{esempio}{Esempio}[examples]
+\newtheorem{example}{Esempio}[chapter]
+
+\theoremstyle{definition}
+\newtheorem*{remark}{Osservazione}
+
+
+%----------------------------------------------------------
+\newcommand{\F}{\mathscr{F}}
+\renewcommand{\P}{\mathbb{P}}
+
+
+\begin{document}
+\frontmatter
+\begin {titlepage}
+\begin{center}
+UNIVERSIT\`A DEGLI STUDI DELL'INSUBRIA - COMO\\
+Dipartimento di Scienza ed Alta Tecnologia\\
+Corso di Laurea in Matematica
+\end{center}
+\vfill
+\begin{figure}[h]
+	\begin{center} 
+		\scalebox{.2}{\includegraphics{logo}} 
+	\end{center} 
+\end{figure}
+\vfill
+\begin{center}
+\LARGE{Xxxxxxx Xxxxxxx Xxxxxx Xxxxxxxxxx}
+\end{center}
+\vfill
+\vfill
+\vfill
+\begin{flushleft}
+Relatore: dott. Andrea MARTINELLI\\
+Correlatore: 
+\end{flushleft}
+\vfill
+\begin{flushright}
+Tesi di Laurea di\\
+XXXXXXXXXXXXXXXXXXXXX\\
+Matricola n. XXXXXX
+\end{flushright}
+\vfill
+\begin{center}
+Anno Accademico 20xx--20xx
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+
+
+
+\include{tesi_data/introduzione}
+
+\mainmatter
+
+\include{tesi_data/A}
+\include{tesi_data/B}
+\include{tesi_data/C}
+
+
+%\begin{thebibliography}{9}
+%\end{thebibliography}
+
+
+
+
+
+\end {document}
