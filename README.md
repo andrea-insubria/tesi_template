@@ -12,32 +12,17 @@ Per utilizzare il template potete procedere in due modi:
   2. entrati nel vostro account e un volta che si è sulla pagina del progetto si può selezionare il pulsante per clonare il progettoe scegliere se aprirlo in _github desktop_ oppure scaricarlo in formato compresso.
   3. una volta che avete a disposizione la la cartella con il template della tesi, potete vedere che la struttura è questa  
 ```
-.
-+-- tesi.tex
-+-- tesi.tex.latexmain
-+-- logo.pdf
-+-- logo.jpg
-+-- figures
-    +-- image.jpg
-+-- tesi_data
-    +-- A.tex
-    +-- B.tex
-    +-- C.tex
-    +-- introduzione.tex
-```
-
-```
-.
-│    tesi.tex
-│    tesi.tex.latexmain
-│    logo.pdf
-│    logo.jpg
-└─── figures
-│      image.jpg
-└─── tesi_data
-       A.tex
-       B.tex
-       C.tex
-       introduzione.tex
+			.
+			│    tesi.tex
+			│    tesi.tex.latexmain
+			│    logo.pdf
+			│    logo.jpg
+			└─── figures
+			│      image.jpg
+			└─── tesi_data
+			       A.tex
+			       B.tex
+			       C.tex
+			       introduzione.tex
 ```
 
