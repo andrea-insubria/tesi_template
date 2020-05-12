@@ -1,3 +1,9 @@
 
 *.swp
 *.swp
+*.aux
+*.log
+*.out
+*.pdfsync
+*.toc
+*.swp
