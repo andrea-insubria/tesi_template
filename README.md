@@ -7,6 +7,7 @@ In questa cartella trovate un _template_ per il progetto di tesi sia esso trienn
 Il modo più semplice per utilizzare il template è scaricandolo il progetto in formato compresso con il pulsante _Clone or download_. Se invece si vuole utilizzare il progetto ma mantenendolo sincronizzato online con github potete procedere come segue:
 
   1. se si ha un account github o si è intenzionati a crearlo, potete 
+  
     * creare l'account github
     * scaricare e installare *github desktop*, questo non è essenziale ma è più *user friendly* rispetto all'utilizzo da linea di comando in bash. Se volete utilizzare la modalità d'uso da linea di comando suggerisco di leggere questa [guida](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners){target="_blank"} passo passo.
   2. entrare nel vostro account e una volta che si è sulla pagina del progetto selezionare il pulsante per clonare il progetto e scegliere di aprirlo in _github desktop_ oppure scaricarlo in formato compresso.
