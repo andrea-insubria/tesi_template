@@ -4,7 +4,7 @@ In questa cartella trovate un _template_ per il progetto di tesi sia esso trienn
 
 ## Informazioni preliminari
 
-	Il modo più semplice per utilizzare il template è scaricandolo il progetto in formato compresso con il pulsante _Clone or download_. Se invece si vuole utilizzare il progetto ma mantenendolo sincronizzato online con github potete procedere come segue:
+Il modo più semplice per utilizzare il template è scaricandolo il progetto in formato compresso con il pulsante _Clone or download_. Se invece si vuole utilizzare il progetto ma mantenendolo sincronizzato online con github potete procedere come segue:
 
   1. se si ha un account github o si è intenzionati a crearlo, potete 
     * creare l'account github
