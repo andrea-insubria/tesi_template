@@ -1,15 +1,15 @@
 # Progetto tesi template
 
-In questa cartella trovat un template per il progetto di tesi sia esso triennale o magistrale. Naturalmente questo è solo un aiuto, quindi potete personalizzarlo e o ricorrere ad altre risorse per strutturare la tesi.
+In questa cartella trovate un _template_ per il progetto di tesi sia esso triennale o magistrale. Naturalmente questo è solo un aiuto, quindi potete personalizzarlo e o ricorrere ad altre risorse per strutturare la tesi comr mrglio credete/prferite.
 
 ## Informazioni preliminari
 
-Per utilizzare il template potete procedere in due modi:
+	Il modo più semplice per utilizzare il template è scaricandolo il progetto in formato compresso con il pulsante _Clone or download_. Se invece si vuole utilizzare il progetto ma mantenendolo sincronizzato online con github potete procedere come segue:
 
   1. se si ha un account github o si è intenzionati a crearlo, potete 
     * creare l'account github
-    * scaricare e installare *github desktop*, questo non è essenziale ma è più *user friendly* rispetto all'utilizzo da linea di comando in bash. Se volete utilizzare la modalità d'uso da linea di comando suggerisco di leggere questa [guida](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) passo passo.
-  2. entrati nel vostro account e un volta che si è sulla pagina del progetto si può selezionare il pulsante per clonare il progettoe scegliere se aprirlo in _github desktop_ oppure scaricarlo in formato compresso.
+    * scaricare e installare *github desktop*, questo non è essenziale ma è più *user friendly* rispetto all'utilizzo da linea di comando in bash. Se volete utilizzare la modalità d'uso da linea di comando suggerisco di leggere questa [guida](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners){target="_blank"} passo passo.
+  2. entrare nel vostro account e una volta che si è sulla pagina del progetto selezionare il pulsante per clonare il progetto e scegliere di aprirlo in _github desktop_ oppure scaricarlo in formato compresso.
   3. una volta che avete a disposizione la la cartella con il template della tesi, potete vedere che la struttura è questa 
 ```
 		.
