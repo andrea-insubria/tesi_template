@@ -6,12 +6,11 @@ In questa cartella trovate un _template_ per il progetto di tesi sia esso trienn
 
 Il modo più semplice per utilizzare il template è scaricandolo il progetto in formato compresso con il pulsante _Clone or download_. Se invece si vuole utilizzare il progetto ma mantenendolo sincronizzato online con github potete procedere come segue:
 
-  1. se si ha un account github o si è intenzionati a crearlo, potete 
-  
-    * creare l'account github
-    * scaricare e installare *github desktop*, questo non è essenziale ma è più *user friendly* rispetto all'utilizzo da linea di comando in bash. Se volete utilizzare la modalità d'uso da linea di comando suggerisco di leggere questa [guida](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners){target="_blank"} passo passo.
-  2. entrare nel vostro account, accedere alla pagina del progetto di template della tesi e selezionare il pulsante _Use this template_ e assegnare un nome al proprio progetto di tesi.
-  3. aprire il progetto e scegliere di aprirlo in _github desktop_ (opzione che si trova in _Clone or download_. In questo modo si crea una copia locale del template e qualsiasi modifica che fate ai file in questa directory è sincronizzata con github desktop, in questo modo avrete a disposizioni anche tutte le variazioni che avete fatto e potete recuperare le versioni precedenti.
+1. se si ha un account github o si è intenzionati a crearlo, potete 
+ * creare l'account github
+ * scaricare e installare *github desktop*, questo non è essenziale ma è più *user friendly* rispetto all'utilizzo da linea di comando in bash. Se volete utilizzare la modalità d'uso da linea di comando suggerisco di leggere questa [guida](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) passo passo.
+2. entrare nel vostro account, accedere alla pagina del progetto di template della tesi e selezionare il pulsante _Use this template_ e assegnare un nome al proprio progetto di tesi.
+3. aprire il progetto e scegliere di aprirlo in _github desktop_ (opzione che si trova in _Clone or download_. In questo modo si crea una copia locale del template e qualsiasi modifica che fate ai file in questa directory è sincronizzata con github desktop, in questo modo avrete a disposizioni anche tutte le variazioni che avete fatto e potete recuperare le versioni precedenti.
   
 Una volta proceduto in uno dei due modi testé descritti, avrete a disposizione la cartella con il template della tesi, potete vedere che la struttura del progetto è questa 
 ```
@@ -37,4 +36,4 @@ Il template così come fornito è compilabile direttamente in `LaTeX`, come dett
 Per quanto riguarda distribuzioni LaTeX e guide base sul suo uso vi rimando alla pagina [`Risorse`](https://andrea-insubria.github.io/risorse/) del mio sito web dove troverete la sezione *Scrivere con LaTex*.
 
 Volendo è anche possibile modificare e compilare il file direttamente dal browser su _github_, ma per fare questo è necessario  
-utilizzare le _actions_ di github. Solo a titolo di esempio, in questa [pagina](https://github.com/marketplace/actions/latex-compilation){target="_blank"} una _action_ per la compilazione dei file latex.
+utilizzare le _actions_ di github. Solo a titolo di esempio, in questa [pagina](https://github.com/marketplace/actions/latex-compilation) una _action_ per la compilazione dei file latex. Questo procedimento non è immediato, ma è potenzialmente applicabile ai problemi più disparati, per una introduzione alle _actions_ e per la costruzione di un _workflow_ in un repository github rimando alla relativa sezione dell'[help](https://github.com/features/actions) di github e, forse più pratica, questa [pagina](https://help.github.com/en/actions/creating-actions).
